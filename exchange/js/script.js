@@ -7,7 +7,7 @@ btn.onclick = function() {
 
 	$.ajax({
 			type: 'GET',
-			url: 'https://community-bitcointy.p.mashape.com/convert/10/' + search.value,
+			url: 'https://community-bitcointy.p.mashape.com/convert/1/' + search.value,
 			headers: {
 				'X-Mashape-Key': 'LA2QJLX5BGmsh8TYRxMb8VZhmKlCp12u5YwjsnyU1MnL0kn297'
 			}
