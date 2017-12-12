@@ -1,0 +1,48 @@
+.wrap {
+	margin: 5px;
+	padding: 5px;
+}
+#searchTerm {
+	width: 50%;
+	height: 30px;
+	font-size: large;
+}
+.btn {
+	width: 10%;
+	height: 35px;
+	background: #14fda5;
+	font-size: large;
+	color: #3342a8;
+}
+.btn:hover {
+	background: #a1ffad;
+	color: #a41524;
+}
+h2 {
+	color: #3342a8;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+p {
+	padding-bottom: 1%;
+	padding-left: 1%;
+	font-size: 25px;
+}
+div {
+	border-radius: 10px;
+}
+#output {
+	margin-top: 1%;
+	border-radius: 25px;
+}
+.text {
+	background: #bfbfbf;
+}
+a {
+	 color: #a41524;
+	 text-decoration: none;
+ }
+a:hover {
+	color: #1a2053;
+	text-decoration: underline;
+}
