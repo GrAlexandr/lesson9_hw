@@ -22,7 +22,13 @@ $(function () {
 	});
 
 	$('#search').on('click', function () {
-		var searchTerm = $('#searchTerm').val();
+		var searchTerm = $('#searchTerm').val()
+
+		if(searchTerm === '') {
+			alert('Enter the data!');
+			return;
+		}
+
 		var urlStr = 'https://ru.wikipedia.org/w/api.php?action=opensearch&search=' + searchTerm + '&format=json&callback=?';
 		$.ajax({
 			url: urlStr,

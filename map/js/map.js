@@ -4,7 +4,8 @@ var elem = document,
 		btn = elem.getElementById('btn'),
 		h2 = elem.getElementById('h2'),
 		lat = elem.getElementById('lat'),
-		lng = elem.getElementById('lng');
+		lng = elem.getElementById('lng'),
+		address;
 
 function initMap(location) {
 	var myMap = new google.maps.Map(document.getElementById('map'), {
