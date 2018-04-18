@@ -19,6 +19,7 @@ btn.onclick = function() {
 			}
 	}).done(function(data) {
 			h1.textContent = 'Rate Bitcoin => ' + data.currency + ': ' + data.value;
+			search.value = '';
 	}).fail(function() {
 		console.log('fail', arguments);
 	});

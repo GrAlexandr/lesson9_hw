@@ -3,16 +3,19 @@ body {
 	margin: 0;
 }
 .wrap {
-	margin: 5px;
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	margin: 20px auto;
 	padding: 5px;
 }
 #search {
-	width: 30%;
+	width: 70%;
 	height: 30px;
 	font-size: large;
 }
 #btn {
-	width: 10%;
+	width: 25%;
 	height: 35px;
 	font-size: large;
 }

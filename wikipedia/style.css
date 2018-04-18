@@ -1,14 +1,17 @@
 .wrap {
-	margin: 5px;
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	margin: 15px auto;
 	padding: 5px;
 }
 #searchTerm {
-	width: 50%;
+	width: 70%;
 	height: 30px;
 	font-size: large;
 }
 .btn {
-	width: 10%;
+	width: 27%;
 	height: 35px;
 	background: #14fda5;
 	font-size: large;
